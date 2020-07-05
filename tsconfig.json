@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+      "allowJs": true,
+      "baseUrl": ".",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "lib": ["dom", "es2017"],
+      "module": "commonjs",
+      "noEmitOnError": false,
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "alwaysStrict": true,
+      "noUnusedLocals": true,
+      "noImplicitAny": true,
+      "sourceMap": true,
+      "target": "es5"
+  },
+  "paths": {
+      "src/*": ["src/*"]
+  },
+  "typeRoots": [
+      "./node_modules/@types",
+  ],
+  "files": [
+      "src/main.ts"
+  ],
+  "exclude": ["node_modules", "*.spec.ts"],
+  "awesomeTypescriptLoaderOptions": {
+      "transpileOnly": true
+  }
+}
